@@ -1,11 +1,11 @@
 
 body {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
-    /* --color1: hsla(349, 69%, 76%, 1);
-    --color2: hsla(207, 67%, 44%, 1);
-    --color3: hsla(200, 61%, 56%, 1);
+    --color1: hsla(349, 69%, 76%, 1);
+    --color2: rgb(109, 180, 238);
+    --color3: rgb(204, 230, 245);
     --color4: hsla(187, 41%, 94%, 1);
-    --color5: hsla(170, 28%, 95%, 1); */
+    --color5: hsla(170, 28%, 95%, 1);
 
     /* --color1: hsla(45, 86%, 83%, 1);
     --color2: hsla(135, 65%, 98%, 1);
@@ -111,3 +111,109 @@ footer {
     }
 
   }
+
+
+
+
+
+
+.main-section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#counterSection {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% ;
+    background-color: darkcyan;
+    padding: 2rem;
+}
+
+.first {
+    background-color: lightcoral;
+    height: 100%;
+    padding: 2rem;
+}
+
+.second {
+    background-color: lightgreen;
+    height: 100%;
+    padding: 2rem;
+}
+
+.third {
+    background-color: lightcyan;
+    height: 100%;
+    padding: 2rem;
+}
+
+.fourth {
+    background-color: lightgoldenrodyellow;
+    height: 100%;
+    padding: 2rem;
+}
+
+
+input {
+    width: 40%;
+  }
+
+
+.addition-section {
+    height: 10vh;
+    width: 100vh;
+    background-color: lightcoral;
+}
+
+.addition-section h2 {
+    margin-right: 40%;
+    width: 300px;
+}
+
+.subtraction-section {
+    height: 10vh;
+    width: 100vh;
+    background-color: lightgreen;
+}
+
+.subtraction-section h2 {
+    margin-right: 38%;
+    width: 300px;
+}
+
+.multiply-section {
+    height: 10vh;
+    width: 100vh;
+    background-color: lightcyan;
+}
+
+.multiply-section h2 {
+    margin-right: 39.5%;
+    width: 300px;
+}
+
+
+.division-section {
+    height: 10vh;
+    width: 100vh;
+    background-color: lightgoldenrodyellow;
+}
+
+.division-section h2 {
+    margin-right: 39.5%;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
